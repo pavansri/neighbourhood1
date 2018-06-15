@@ -1,29 +1,39 @@
-Neighbourhood Map 
-This single page application shows a map of best hotels in hyderabad. This app is built for a Neighbourhood map project.
-Libraries, frameworks and APIs used
-1.Knockout JS
-2.Google Maps
-3.Foursquare
+# San Francisco South Bay Neighborhood Map Project 🚋
 
-#Project Requirements / Features
+![Part of the Udacity Front-End Web Development Nanodegree](https://img.shields.io/badge/Udacity-Front--End%20Web%20Developer%20Nanodegree-02b3e4.svg)
 
-1)Display map markers identifying at least 5 locations that you are interested in within chosen neighborhood. Your app displays those locations by default when the page is loaded.
-2)Implement a list view of the set of locations.
-3)Provide a filter option that uses an input field to filter both the list view and the map markers displayed by default on load. The list view and the markers update accordingly.
-4)Add functionality using third-party APIs to provide information when a map marker or list view entry is clicked.
-5)Add functionality to animate a map marker when either the list item associated with it or the map marker itself is selected.
-6)Add functionality to open an infoWindow when either a location is selected from the list view or its map marker is selected directly.
-7)The app's interface is intuitive to use. For example, the input text area to filter locations is easy to locate. It should be easy to understand what set of locations is being filtered.
-8)Google maps and Forsquare errors are handled gracefully.
+> Developed for Project 5-1 of the **Udacity Front-End Web Developer Nanodegree**. 🎓
 
-#How to run it.
+This is the **Udacity Neighborhood Map Project**! It's intended as a challenge to put together a website from various APIs. This includes making function calls to Google Maps and other location-based services like Foursquare. 🔰
 
-1.Download the source code from my repo at GitHub: https://github.com/pavansri/neighbourhood1 and open /index.html in your browser.
-2.Remember to update with your own Foursquare Client ID and password information to be able to fetch and view the data.
+Included is a list of my and my friends' favorite restaurants and hangouts in the South San Francisco Bay Area of California. 🍽 🍲
 
-#Helpful Resources
-1)Foursquare for Developers
-2)Free Styles for Google Maps
-3)GitHub Help - Creating Project Pages manually
-4)Google Maps APIs
-5)Knockout Documentation
+I also included some local parks in the area. 🌳 🌲
+
+The app allows you to filter the list down as you type. In return, it displays the locations on the map. Heck, the icons even bounce like you expect them to. 🗺 ⛹🏽‍♀️
+
+There's also extra info pulled from the Foursquare API where available. This includes website URLs and phone numbers. ☎️
+
+The app is responsive, too! It resizes using CSS Flexbox and media queries. 
+
+It can also recalibrate itself based on your screen size. Try resizing the window! 🖥 📲
+
+![Screenshot of Map](http://i.imgur.com/gOvmzrv.png)
+
+# How To Use
+
+1. Click here to try it out: ➡  <http://lastres0rt.github.io/udacity-neighborhood-map-project/> 
+2. Click on any of the places on the map / sidebar for more information
+3. Type in the white bar if you only want to see a few of the places listed on the map to make it easier to spot.
+
+# Recent Updates
+## Last updated February 9, 2017
+
+Updated with new location of Hacker Dojo (old one has been left intact for historical purposes) 👩🏽‍
+
+# Future Improvements
+ 
+I'd like to get this set up with Gulp so I can automate adding new locations and make updating this app easier! That'd be awesome.
+
+I'd also like to add some new flourishes... this app seems to be getting forked a fair bit, and I'm hoping that's not because of anything that wouldn't be "Udacious"... 🤔
+
